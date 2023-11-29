@@ -1,0 +1,25 @@
+body h2 + p {
+  font-style: italic;
+  color: #000;
+  font-weight: 600;
+}
+
+h2 ~ p {
+  color: gray;
+}
+
+body h3 + p,
+body h3 + p + p,
+body h3 + p + p + p {
+  color: #000;
+  text-decoration: underline;
+}
+
+h4 + p {
+  color: #000;
+}
+
+h4 + p + p,
+h4 + p + p + p {
+  color: blue;
+}
