@@ -1,0 +1,54 @@
+#flexChallengeOneContainer {
+  display: flex;
+  width: 900px;
+  height: 300px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#flexChallengeTwoContainer {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#flexChallengeThreeContainer {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-challenge-card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardOne {
+  background-color: #add8e6;
+}
+.cardTwo {
+  background-color: #ffa500;
+}
+.cardThree {
+  background-color: #ff69b4;
+}
+.cardFour {
+  background-color: #dc143c;
+}
+.cardFive {
+  background-color: #90ee90;
+}
+
+hr {
+  margin: 50px 0px 50px 0px;
+  height: 5px;
+  background-color: black;
+}
