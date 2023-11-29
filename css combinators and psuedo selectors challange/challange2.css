@@ -4,8 +4,9 @@ body h2 + p {
   font-weight: 600;
 }
 
-h2 ~ p {
-  color: gray;
+p {
+  margin-left: 20px;
+  color: grey;
 }
 
 body h3 + p,
