@@ -1,0 +1,22 @@
+@use "mixin";
+
+.flag__body--style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flag--style {
+  display: flex;
+}
+
+@media only screen and (min-width: 0px) {
+  @include mixin.media-screen(column, 60px, 140px, black, red, yellow);
+}
+@media only screen and (min-width: 601px) {
+  @include mixin.media-screen(row, 140px, 60px, black, yellow, red);
+}
+@media only screen and (min-width: 901px) {
+  @include mixin.media-screen(row, 140px, 60px, green, white, orange);
+}

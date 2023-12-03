@@ -1,0 +1,74 @@
+.flag__body--style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.flag--style {
+  display: flex;
+}
+
+@media only screen and (min-width: 0px) {
+  .flag--style {
+    flex-direction: column;
+    height: 100px;
+  }
+  .flag--style > .flag__barOne--style {
+    background-color: black;
+    height: 60px;
+    width: 140px;
+  }
+  .flag__barTwo--style {
+    background-color: red;
+    height: 60px;
+    width: 140px;
+  }
+  .flag__barThree--style {
+    background-color: yellow;
+    height: 60px;
+    width: 140px;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .flag--style {
+    flex-direction: row;
+    height: 100px;
+  }
+  .flag--style > .flag__barOne--style {
+    background-color: black;
+    height: 140px;
+    width: 60px;
+  }
+  .flag__barTwo--style {
+    background-color: yellow;
+    height: 140px;
+    width: 60px;
+  }
+  .flag__barThree--style {
+    background-color: red;
+    height: 140px;
+    width: 60px;
+  }
+}
+@media only screen and (min-width: 901px) {
+  .flag--style {
+    flex-direction: row;
+    height: 100px;
+  }
+  .flag--style > .flag__barOne--style {
+    background-color: green;
+    height: 140px;
+    width: 60px;
+  }
+  .flag__barTwo--style {
+    background-color: white;
+    height: 140px;
+    width: 60px;
+  }
+  .flag__barThree--style {
+    background-color: orange;
+    height: 140px;
+    width: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */

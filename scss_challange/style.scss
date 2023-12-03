@@ -1,0 +1,9 @@
+@use "scss_partials/mixin";
+
+.button__text {
+  @include mixin.text-styling;
+}
+
+.pill__text {
+  @include mixin.text-styling;
+}

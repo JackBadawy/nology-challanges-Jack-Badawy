@@ -1,0 +1,22 @@
+@mixin media-screen($flexDir, $height, $width, $col1, $col2, $col3) {
+  .flag--style {
+    flex-direction: $flexDir;
+    height: 100px;
+  }
+
+  .flag--style > .flag__barOne--style {
+    background-color: $col1;
+    height: $height;
+    width: $width;
+  }
+  .flag__barTwo--style {
+    background-color: $col2;
+    height: $height;
+    width: $width;
+  }
+  .flag__barThree--style {
+    background-color: $col3;
+    height: $height;
+    width: $width;
+  }
+}
