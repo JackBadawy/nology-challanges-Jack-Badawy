@@ -12,11 +12,11 @@
 }
 
 @media only screen and (min-width: 0px) {
-  @include mixin.media-screen(column, 60px, 140px, black, red, yellow);
+  @include mixin.media-screen(column, 95px, 300px, black, red, yellow);
 }
 @media only screen and (min-width: 601px) {
-  @include mixin.media-screen(row, 140px, 60px, black, yellow, red);
+  @include mixin.media-screen(row, 280px, 120px, black, yellow, red);
 }
 @media only screen and (min-width: 901px) {
-  @include mixin.media-screen(row, 140px, 60px, green, white, orange);
+  @include mixin.media-screen(row, 280px, 120px, green, white, orange);
 }

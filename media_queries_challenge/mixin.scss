@@ -1,7 +1,6 @@
 @mixin media-screen($flexDir, $height, $width, $col1, $col2, $col3) {
   .flag--style {
     flex-direction: $flexDir;
-    height: 100px;
   }
 
   .flag--style > .flag__barOne--style {
