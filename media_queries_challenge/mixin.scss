@@ -1,9 +1,9 @@
 @mixin media-screen($flexDir, $height, $width, $col1, $col2, $col3) {
-  .flag--style {
+  .flag__container--style {
     flex-direction: $flexDir;
   }
 
-  .flag--style > .flag__barOne--style {
+  .flag__container--style > .flag__barOne--style {
     background-color: $col1;
     height: $height;
     width: $width;

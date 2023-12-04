@@ -5,16 +5,15 @@
   min-height: 100vh;
 }
 
-.flag--style {
+.flag__container--style {
   display: flex;
 }
 
 @media only screen and (min-width: 0px) {
-  .flag--style {
+  .flag__container--style {
     flex-direction: column;
-    /*  height: 100px; */
   }
-  .flag--style > .flag__barOne--style {
+  .flag__container--style > .flag__barOne--style {
     background-color: black;
     height: 95px;
     width: 300px;
@@ -31,11 +30,10 @@
   }
 }
 @media only screen and (min-width: 601px) {
-  .flag--style {
+  .flag__container--style {
     flex-direction: row;
-    /*  height: 100px; */
   }
-  .flag--style > .flag__barOne--style {
+  .flag__container--style > .flag__barOne--style {
     background-color: black;
     height: 280px;
     width: 120px;
@@ -52,11 +50,10 @@
   }
 }
 @media only screen and (min-width: 901px) {
-  .flag--style {
+  .flag__container--style {
     flex-direction: row;
-    /*  height: 100px; */
   }
-  .flag--style > .flag__barOne--style {
+  .flag__container--style > .flag__barOne--style {
     background-color: green;
     height: 280px;
     width: 120px;
